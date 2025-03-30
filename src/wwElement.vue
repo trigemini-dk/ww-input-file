@@ -1,11 +1,12 @@
 <template>
     <div class="ww-input-file" @click="openFileExplorer" :class="{ editing: isEditing }">
         <wwElement class="ww-input-file__button" v-bind="content.button" />
+        <!--
         <wwElement
             class="ww-input-file__text"
             v-bind="content.text"
             :ww-props="{ text: fileName || 'No file chosen' }"
-        />
+        />-->
         <input
             ref="inputFile"
             :value="localValue"
