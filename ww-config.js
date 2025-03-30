@@ -79,6 +79,7 @@ export default {
             section: 'settings',
             hidden: content => content.accept !== 'custom',
             defaultValue: '',
+            bindable: true,
         },
     },
 };
